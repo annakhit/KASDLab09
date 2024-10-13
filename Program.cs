@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace KASDLab09
 {
@@ -10,6 +6,11 @@ namespace KASDLab09
     {
         static void Main(string[] args)
         {
+            ReversePolishNotation rpn = new ReversePolishNotation();
+
+            Console.WriteLine(rpn.Convert("3 + 8 * 7 - 1 - sin5"));
+
+            Console.ReadKey();
         }
     }
 }
